@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Riot&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import 'tailwindcss';
+
+.h{
+  background-color: #242323;
+}
+@theme{
+--color-primary:white;
+--color-secondary:black;
+--color-third:#4d4d4d;
+--color-fourth:#363636;
+--color-fifth:#242323;
+--font-primary:Montserrat Alternates , "sans-serif";
+--font-secondary:Rubik , "sans-serif";
+--font-poppins:Poppins , "sans-serif";
+/* --font-light:Protest Riot , "sans-serif"; */
+--font-weight-popBold: 700;
+--font-weight-popMid: 500;
+--font-weight-popLight: 400;
+--font-weight-popThin: 300;
+--color-border:#4d4d4d;
+--color-borderLight:#e9e8e8;
+}
